@@ -8,7 +8,7 @@
 | share           | 是否共享 | 默认不共享                         |
 | elasticSubnetId | 出口子网 | 为空则自动指定，但是如果VPC类型为手工选择子网，此项必填 |
 | regionId        | 区域   |                               |
-| bandwidth       | 带宽   | 默认为1M                         |
+| bandwidth       | 带宽   | 默认为1M，类型为数字，单位为M              |
 | instanceId      | 实例ID | 为空则不绑定                        |
 | line            | 线路   | 默认为default线路                  |
 
