@@ -4,6 +4,8 @@
 
 > SIP::EC2::LoadBalancer，交付一台负载均衡实例
 
+![img](../image/loadbalance-stone.png)
+
 参数可以在执行器中查看。
 
 输出为：
