@@ -42,4 +42,7 @@
 * [6.高级功能](advance/README.md)
     * [6.1. 函数](advance/function.md)
     * [6.2. agent上报变量](advance/agetReport.md)
-* [7.常见问题](question.md)
+    * [6.3. 系统变量](advance/systemParam.md)
+* [7.常见问题](question/README.md)
+    * [7.1. 部署常见问题](question/kvm.md)
+    * [7.2. vmware常见问题](question/vmware.md)
