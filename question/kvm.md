@@ -30,3 +30,26 @@
 | 1.0.0.2 |    <3.6.7     |  Java  |
 | 2.0.0.0 | >=3.6.7,<=4.0 | Python |
 | 4.0.0.0 |      4.1      | Python |
+
+
+
+#### 提交部署失败
+
+工作流版本提交部署时，如报一下的错误，表示web程序无法连接后台服务的8306端口。
+
+* 如web和后台服务分开部署，要检查两者的端口是否可达
+* 需要检查river服务是否启动，`service river status`
+
+![img](..\image\create-connectionfailed.png)
+
+
+
+#### 取消、删除、结束流程失败
+
+工作流版本提交部署时，如报一下的错误，表示web程序无法连接后台服务的8306端口。
+
+- 如web和后台服务分开部署，要检查两者的端口是否可达
+- 需要检查river服务是否启动，`service river status
+
+![img](..\image\cancel-connectfailed.png)
+
